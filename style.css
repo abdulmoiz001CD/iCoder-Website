@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+
+
+.carouselImg{
+    height: 80vh;
+}
+
+
+#cardImg3{
+  height: 500px;
+}
+
+
+#blogImg{
+    width: 200px;
+    height: 300px;
+}
+
+
+
+#content{
+    background-color: antiquewhite;
+}
+
+form{
+margin-top:50px;
+ }
