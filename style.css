@@ -24,7 +24,7 @@ nav{
 
 #blogImg{
     width: 200px;
-    height: 300px;
+    height: 40vh;
 }
 
 
@@ -35,4 +35,79 @@ nav{
 
 form{
 margin-top:50px;
+ }
+
+
+ #contextImg{
+    height: 50vh;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    #banner{
+       height: 53vh;
+    }
+
+    #aboutTitleSec{
+       display:flex ;
+       flex-direction: column;
+      
+       width: 170%;
+   }
+
+
+   #contextImg{
+    height: 40vh;
+}
+
+} 
+
+
+
+
+ @media screen and (max-width:426px){
+    
+    #slides{
+        height: 50vh;
+    }
+
+    #contextImg{
+        height: 60vh;
+    }
+
+    #banner{
+        height: 49.5vh;
+     }
+
+
+     #aboutTitleSec{
+        display:flex ;
+        flex-direction: column;
+       padding-bottom: 4rem;
+        width: 100%;
+    }
+
+    #contextImg{
+        height: 40vh;
+    }
+
+     
+ }
+
+
+ 
+ @media screen and (max-width:321px){
+    
+    #slides{
+        height: 45vh;
+    }
+
+   
+    #contextImg{
+        height: 40vh;
+    }
+
  }
